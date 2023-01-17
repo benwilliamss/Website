@@ -2,21 +2,23 @@
 <html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1.0/>
         <title>My Homepage</title>
         <link href="styles/homepage.css" rel="stylesheet" />
     </head>  
     <body>
-        <header>
-        <h1> Welcome to my site</h1>
-        </header>
         <nav>
             <li><a href="homepage.html">Home</a></li>
             <li><a href="aboutMe.html">About me</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="cv.html">CV</a></li>
         </nav>
-        <img src="pictures/me.jpg" alt="photo of Ben Williams">
+        <section id="Image_Container">
+            <img id="Background_Image" src="pictures/me.jpg" alt="photo of Ben Williams">
+            <div id="background_image_text">
+                <a href="aboutMe.html">My Story</a>
+            </div>
+        </section>
         <footer>
             <ul>
             <li><a href="privacyPolicy.html">Privacy Policy</a></li>
