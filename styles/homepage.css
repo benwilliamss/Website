@@ -1,9 +1,17 @@
 body, h1, h2{
     text-align: center;
+    background-color: lightslategray;
 }
 article {
     font-size: 1.25vw;
 }
 a:hover {
     color: green;
+}
+
+footer {
+    width:90%;
+    padding: 15px 2px;
+    border:black 5px solid;
+    margin:20px; 
 }
