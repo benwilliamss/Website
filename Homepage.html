@@ -5,24 +5,24 @@
         <meta name="viewport" content="width=device-width", initial-scale=1.0/>
         <title>My Homepage</title>
         <link href="styles/homepage.css" rel="stylesheet" />
+        <script src="button.js"></script>
     </head>  
     <body>
-        <nav>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="aboutMe.html">About me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="cv.html">CV</a></li>
-        </nav>
-        <section id="Image_Container">
+        <div id="Image_Container">         
+            <nav>
+                <li><a class="links" href="homepage.html" title="">Home</a></li>
+                <li><a class="links" href="aboutMe.html" >About me</a></li>
+                <li><a class="links" href="portfolio.html">Portfolio</a></li>
+                <li><a class="links" href="cv.html">CV</a></li>
+                <!--Add widgets links to social media-->
+            </nav>
             <img id="Background_Image" src="pictures/me.jpg" alt="photo of Ben Williams">
-            <div id="background_image_text">
-                <a href="aboutMe.html">My Story</a>
-            </div>
-        </section>
+            <a id="background_image_text" href="aboutMe.html">My Story</a>
+        </div>
         <footer>
             <ul>
             <li><a href="privacyPolicy.html">Privacy Policy</a></li>
-            <li>If you wish to conact me please feel free to <a href="mailto:williamss_1996@outlook.com">email me</li>
+            <li> Any queries? Please feel free to <a href="mailto:williamss_1996@outlook.com">contact me</li>
             </ul>
         </footer>
     </body>  
