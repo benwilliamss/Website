@@ -1,0 +1,54 @@
+
+/*Macro tags */
+/*html{
+        background-image: url(../pictures/me.jpg);
+        min-height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+}*/
+@media screen and (min-width: 80rem) {
+    /*Globals*/
+    body{
+        position: relative;
+        text-align: center;
+        font-size: 2.25vw;
+        font-family: serif;
+    }
+    #nav_bar{
+        align-items: center;
+        position: absolute; 
+        border-bottom: 1px solid black;
+        padding: 2em 1em;
+    }
+    footer {
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+    } 
+    /*Lists */
+    li.nav{
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+    }
+    /*Anchors */
+    a{
+        text-decoration: none;
+    }
+    /*Homepage*/
+    #Background_Image{
+        max-width: 50%;
+        max-height: 60%;
+    }
+    #Image_Container{
+        margin: 5em 0em;
+    }
+    /*portfolio*/
+}
+
+
+
+
